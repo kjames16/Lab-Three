@@ -1,0 +1,342 @@
+Index,Pathway,Notes,Total_number_papers,AD-specifc_paper_count,Pathway_score,AD-pathway_score,AD_word_score,Literature_rank,AD-specific_paper_rank,%_papers_AD,%_dementia,%_related_dementia,%_unrelated_dementia,%_papers_using_full_pathway_name,
+259,Alzheimer disease,.,130635,123510,high,1.2,11.6108,1,1,95%,2%,3%,0%,100%
+260,Parkinson disease,.,18316,2372,high,3,4.63688,2,15,13%,2%,85%,0%,100%
+341,Immune system,Added_pathway_name,15801,10594,high,3,8.35822,3,2,67%,17%,11%,4%,7%
+88,Metabolic pathways,.,14478,10106,good,3,8.60623,4,3,70%,15%,13%,2%,3%
+211,Long-term depression,.,12050,5128,high,1,4.60664,5,5,43%,41%,14%,2%,2%
+207,Cholinergic synapse,.,11301,9236,high,3,7.64348,6,4,82%,8%,10%,0%,3%
+336,Diabetes,Added_pathway_name,6594,3208,high,5,5.68653,7,8,49%,32%,19%,1%,100%
+150,Apoptosis,.,5982,4390,high,2.5,8.81996,8,6,73%,11%,13%,2%,100%
+153,Apoptosis,Treated_as_a_duplicate,5982,4390,high,2,8.81996,8,6,73%,11%,13%,2%,100%
+337,Cancer,Added_pathway_name,5961,2935,high,5,3.51921,9,9,49%,37%,12%,2%,100%
+261,Amyotrophic lateral sclerosis (ALS),.,4682,1073,high,3,3.61085,10,29,23%,29%,46%,1%,100%
+107,Proteasome,.,4644,3834,good,3.16667,10.4216,11,7,83%,8%,8%,2%,19%
+125,Chemokine signaling pathway,.,3957,2776,good,3.5,8.62472,12,10,71%,13%,9%,8%,17%
+120,Calcium signaling pathway,.,3811,2775,high,3,8.14904,13,11,73%,13%,12%,2%,22%
+206,Glutamatergic synapse,.,3771,2768,high,2.33333,8.00981,14,12,73%,13%,12%,2%,11%
+21,Alanine aspartate and glutamate metabolism,.,3553,2572,high,4,7.9803,15,13,72%,14%,11%,2%,0%
+210,Dopaminergic synapse,.,3539,1392,high,3.66667,4.36448,16,21,39%,13%,46%,1%,2%
+258,Cholesterol metabolism,.,3492,2538,high,2,9.54439,17,14,73%,13%,13%,1%,32%
+262,Huntington disease,.,3432,417,high,3.5,4.50612,18,74,12%,1%,86%,0%,100%
+296,Human immunodeficiency virus 1 infection,.,3126,450,high,3,2.39022,19,66,14%,9%,9%,67%,100%
+218,Insulin secretion,.,2209,1639,high,3,9.39022,20,18,74%,15%,11%,0%,12%
+217,Insulin signaling pathway,.,2931,2285,high,1,9.971,20,16,78%,12%,9%,0%,30%
+263,Prion diseases,.,2623,1494,high,4,7.47104,21,19,57%,14%,16%,12%,47%
+268,Alcoholism,.,2384,964,high,3,4.32859,22,33,40%,42%,14%,4%,34%
+196,TNF signaling pathway,.,2326,1678,high,2.5,9.12038,23,17,72%,12%,10%,6%,18%
+208,Serotonergic synapse,.,2157,1450,high,3,5.19926,24,20,67%,17%,15%,1%,2%
+136,Ubiquitin mediated proteolysis,.,2068,1124,high,3,7.20648,25,26,54%,11%,34%,1%,32%
+237,Type II diabetes mellitus,.,1905,1266,high,3,7.78163,26,23,66%,21%,12%,0%,100%
+222,Estrogen signaling pathway,.,1825,1351,good,3,8.06521,27,22,74%,16%,9%,0%,8%
+104,Basal transcription factors,.,1628,1181,good,4,8.04782,28,25,72%,13%,12%,3%,6%
+39,Glutathione metabolism,.,1600,1109,high,3,8.02684,29,27,69%,16%,14%,1%,19%
+335,Fluid shear stress and atherosclerosis,.,1578,793,high,4,4.87262,30,46,50%,25%,24%,0%,0%
+32,Phenylalanine tyrosine and tryptophan biosynthesis,.,1567,1078,high,4,7.49649,31,28,69%,14%,15%,2%,0%
+143,Lysosome,.,1519,1022,high,2,9.70112,32,32,67%,13%,17%,3%,100%
+202,Long-term potentiation,.,1454,1258,high,1.5,14.0028,33,24,87%,4%,10%,0%,91%
+9,Fatty acid elongation,.,1195,836,high,4,7.38577,34,43,70%,17%,11%,2%,0%
+10,Fatty acid degradation,.,1234,863,high,3.5,7.44733,34,40,70%,17%,11%,2%,5%
+91,Fatty acid metabolism,.,1379,960,high,2,7.31617,34,34,70%,17%,11%,2%,30%
+8,Fatty acid biosynthesis,.,1337,926,high,3,7.2371,35,38,69%,18%,11%,2%,16%
+142,Protein processing in endoplasmic reticulum,.,1352,1050,good,2.5,8.54472,36,30,78%,11%,10%,0%,0%
+212,Olfactory transduction,.,1290,859,high,3,8.4644,37,41,67%,14%,18%,0%,1%
+297,Pathways in cancer,.,1286,778,ok,4.25,5.03566,38,47,60%,25%,13%,2%,100%
+126,NF-kappa B signaling pathway,.,1275,938,high,2.5,8.86667,39,37,74%,14%,9%,4%,28%
+139,Autophagy,.,1248,773,high,3.5,9.03846,40,48,62%,13%,24%,1%,100%
+141,Autophagy,Treated_as_a_duplicate,1248,773,high,1.5,9.03846,40,48,62%,13%,24%,1%,100%
+144,Endocytosis,.,1234,1049,high,3.33333,12.3538,41,31,85%,6%,8%,0%,46%
+123,Cytokine-cytokine receptor interaction,.,1199,854,ok,3.5,8.48959,42,42,72%,14%,9%,5%,15%
+116,MAPK signaling pathway,.,1177,951,high,1.83333,9.79086,43,36,81%,9%,8%,3%,36%
+209,GABAergic synapse,.,1164,877,high,3.66667,7.47983,44,39,75%,11%,13%,0%,6%
+148,PI3K-Akt signaling pathway,.,1165,954,high,3,10.2352,44,35,82%,8%,8%,1%,22%
+177,Complement and coagulation cascades,.,1104,796,high,3,8.44525,45,45,72%,17%,10%,1%,1%
+156,Cellular senescence,.,1078,767,good,2,9.57739,46,49,71%,20%,9%,0%,51%
+327,Rheumatoid arthritis,.,1069,440,high,4,2.92897,47,70,41%,44%,13%,1%,44%
+161,Notch signaling pathway,.,1041,711,high,3.33333,7.02111,48,52,68%,14%,17%,1%,39%
+238,Insulin resistance,.,1013,761,good,1.5,9.75025,49,50,75%,13%,11%,0%,100%
+133,Cell cycle,.,1006,803,high,1,8.0159,50,44,80%,11%,7%,2%,100%
+145,Phagosome,.,993,756,high,3,10.9456,51,51,76%,10%,10%,3%,24%
+23,Cysteine and methionine metabolism,.,948,624,good,4,7.31435,52,57,66%,18%,14%,2%,0%
+158,Adrenergic signaling in cardiomyocytes,.,899,605,high,4,6.43667,53,58,67%,14%,17%,1%,3%
+29,Tyrosine metabolism,.,884,593,good,2.66667,8.06222,54,59,67%,12%,19%,1%,100%
+12,Steroid biosynthesis,.,875,506,good,3.5,5.4732,55,61,58%,28%,11%,3%,27%
+15,Steroid hormone biosynthesis,.,873,505,good,3,5.48,56,62,58%,28%,11%,3%,3%
+77,Folate biosynthesis,.,851,444,high,2.5,6.83705,57,68,52%,26%,20%,2%,7%
+152,Longevity regulating pathway,Treated_as_a_duplicate,829,489,ok,3.33333,7.33253,58,64,59%,28%,12%,0%,17%
+151,Longevity regulating pathway,.,830,489,ok,3.5,7.33253,58,64,59%,28%,12%,0%,17%
+267,Nicotine addiction,.,829,628,high,3.5,7.44511,59,56,76%,14%,9%,0%,14%
+216,Regulation of actin cytoskeleton,.,822,681,high,3,9.34751,60,53,83%,9%,8%,1%,63%
+122,cAMP signaling pathway,.,805,647,high,4,9.67702,61,54,80%,10%,9%,1%,39%
+204,Neurotrophin signaling pathway,.,799,632,high,3,8.77972,62,55,79%,11%,9%,1%,30%
+69,One carbon pool by folate,.,734,407,high,4.5,7.15918,63,77,55%,24%,18%,2%,4%
+180,Renin-angiotensin system,.,710,404,high,3,7.85253,64,78,57%,15%,28%,0%,25%
+87,Biosynthesis of unsaturated fatty acids,.,678,442,good,4.5,7.11504,65,69,65%,21%,13%,0%,10%
+240,AGE-RAGE signaling pathway in diabetic complications,.,677,568,high,2.5,10.1758,66,60,84%,8%,7%,0%,5%
+200,Circadian entrainment,.,178,119,high,NA,6.26404,67,139,67%,24%,8%,0%,13%
+199,Circadian rhythm,.,673,427,high,4,5.96137,67,73,64%,28%,8%,0%,77%
+37,D-Glutamine and D-glutamate metabolism,.,670,462,good,3,7.92399,68,65,69%,15%,13%,3%,0%
+317,Breast cancer,.,665,298,high,4,2.82459,69,93,45%,39%,15%,1%,100%
+339,Innate immune system,Reactome,655,498,high,3,8.59299,70,63,76%,16%,6%,2%,100%
+192,T cell receptor signaling pathway,.,641,392,high,3.66667,7.99381,71,79,61%,18%,8%,13%,15%
+307,Glioma,.,600,222,high,4,3.1875,72,102,37%,43%,16%,4%,100%
+251,Pancreatic secretion,.,586,412,good,3.33333,6.7568,73,75,70%,17%,12%,1%,21%
+203,Synaptic vesicle cycle,.,563,447,high,3.5,10.325,74,67,79%,6%,14%,0%,3%
+54,Inositol phosphate metabolism,.,554,438,high,4,8.64505,75,71,79%,11%,7%,3%,14%
+109,PPAR signaling pathway,.,551,428,high,2.66667,10.0363,76,72,78%,9%,13%,1%,15%
+131,Phospholipase D signaling pathway,.,525,410,good,3.5,7.68381,77,76,78%,12%,8%,1%,4%
+176,Signaling pathways regulating pluripotency of stem cells,.,515,346,good,3,7.69157,78,86,67%,16%,15%,3%,7%
+234,Cortisol synthesis and secretion,.,519,344,high,1.5,6.52216,79,87,66%,24%,8%,1%,0%
+27,Arginine and proline metabolism,.,493,383,good,3.5,9.46045,80,80,78%,9%,13%,1%,0%
+163,TGF-beta signaling pathway,.,492,373,high,3.5,10.1687,81,83,76%,9%,13%,2%,26%
+135,p53 signaling pathway,.,488,367,high,1.5,8.21107,82,84,75%,12%,11%,2%,22%
+170,Focal adhesion,.,476,375,high,2.5,8.28782,83,82,79%,8%,11%,2%,16%
+7,Ascorbate and aldarate metabolism,.,472,238,good,3.66667,7.60955,84,100,67%,19%,13%,2%,75%
+147,mTOR signaling pathway,.,474,356,high,2,9.95781,85,85,75%,11%,13%,1%,45%
+74,Pantothenate and CoA biosynthesis,.,473,335,high,4.5,8.02114,86,90,71%,17%,10%,1%,0%
+31,Tryptophan metabolism,.,452,297,good,4,5.3208,87,94,66%,19%,11%,4%,42%
+146,Peroxisome,.,444,339,high,3,10.1824,88,89,76%,9%,13%,2%,100%
+97,ABC transporters,.,432,380,high,2,11.287,89,81,88%,7%,4%,0%,36%
+340,Cytokine signaling in immune system,Reactome,428,293,high,2,8.92056,90,95,69%,18%,8%,4%,8%
+179,Antigen processing and presentation,.,415,304,high,4,8.24163,91,92,73%,12%,11%,5%,9%
+303,Colorectal cancer,.,384,152,high,4,2.09896,92,120,40%,45%,15%,1%,100%
+172,Cell adhesion molecules (CAMs),.,395,252,high,2,7.13131,93,99,64%,13%,19%,4%,55%
+6,Galactose metabolism,.,395,341,ok,3,10.9392,94,88,86%,7%,7%,0%,11%
+160,Wnt signaling pathway,.,393,341,high,1.5,8.40609,95,88,87%,6%,7%,1%,85%
+129,Phosphatidylinositol signaling system,.,394,330,high,3.33333,9.35533,95,91,84%,8%,7%,2%,48%
+58,Arachidonic acid metabolism,.,365,277,high,3,6.85519,96,96,76%,13%,8%,2%,40%
+294,Herpes simplex virus 1 infection,.,363,231,high,1,6.9697,97,101,64%,20%,6%,10%,38%
+323,Asthma,.,347,153,high,2.5,2.54131,98,119,44%,42%,13%,2%,100%
+165,VEGF signaling pathway,.,346,144,high,1,8.63295,99,124,42%,6%,53%,0%,15%
+81,Nitrogen metabolism,.,345,190,high,3.5,6.75942,100,109,55%,23%,21%,1%,100%
+124,Viral protein interaction with cytokine and cytokine receptor,.,333,116,low,4.5,4.59701,101,140,35%,17%,9%,38%,17%
+272,Pathogenic Escherichia coli infection,.,329,276,high,3,8.59337,102,97,83%,11%,5%,1%,4%
+181,Toll-like receptor signaling pathway,.,331,260,high,2,9.67976,103,98,79%,11%,9%,0%,28%
+338,Adaptive immune system,Reactome,328,134,high,3,4.94225,104,130,41%,28%,10%,20%,87%
+106,Spliceosome,.,321,212,high,2.5,7.90654,105,105,66%,9%,24%,1%,99%
+226,Thyroid hormone signaling pathway,.,307,146,good,3.5,5.38961,106,123,47%,38%,11%,4%,5%
+225,Thyroid hormone synthesis,.,309,149,high,2.5,5.39744,106,122,48%,38%,11%,4%,12%
+298,Transcriptional misregulation in cancer,.,306,207,ok,4.66667,5.24919,107,106,67%,21%,9%,2%,100%
+84,Metabolism of xenobiotics by cytochrome P450,.,299,184,good,4.33333,4.31229,108,111,61%,25%,13%,1%,1%
+1,Glycolysis/Gluconeogenesis,.,295,231,good,3.125,7.51864,109,101,79%,12%,9%,0%,2%
+17,Arginine biosynthesis,.,281,196,high,3,8.65957,110,108,70%,12%,17%,1%,22%
+14,Ubiquinone and other terpenoid-quinone biosynthesis,.,277,156,good,3,6.65827,111,117,56%,21%,22%,1%,10%
+313,Chronic myeloid leukemia,.,210,123,high,4.5,4.47619,112,135,59%,27%,10%,5%,4%
+314,Acute myeloid leukemia,.,233,140,high,4.5,4.69231,112,127,60%,24%,9%,7%,11%
+33,beta[^a-zA-Z]Alanine metabolism,.,273,174,good,3,5.25091,113,113,63%,24%,12%,0%,0%
+16,Oxidative phosphorylation,.,270,173,high,3.5,7.46154,114,114,63%,16%,19%,1%,100%
+26,Lysine degradation,.,262,207,good,3.5,8.5,115,106,77%,10%,12%,0%,6%
+308,Prostate cancer,.,267,135,high,5,3.13858,116,129,51%,37%,12%,0%,100%
+149,AMPK signaling pathway,.,260,216,high,3,10.5308,117,103,83%,7%,8%,0%,28%
+73,Nicotinate and nicotinamide metabolism,.,253,143,good,4.5,5.82353,118,125,57%,24%,17%,3%,1%
+98,Ribosome biogenesis in eukaryotes,.,253,189,good,4,8.17323,119,110,74%,9%,15%,1%,1%
+99,Ribosome,.,254,189,good,3,8.17323,119,110,74%,9%,15%,1%,100%
+50,Glycosaminoglycan biosynthesis,.,226,212,high,3,11.3656,120,105,93%,5%,1%,0%,10%
+51,Glycosaminoglycan biosynthesis,Treated_as_a_duplicate,226,212,high,2,11.3656,120,105,93%,5%,1%,0%,10%
+52,Glycosaminoglycan biosynthesis,Treated_as_a_duplicate,227,212,high,3,11.3656,120,105,93%,5%,1%,0%,10%
+49,Glycosaminoglycan degradation,.,231,214,high,3,11.8182,120,104,93%,6%,1%,0%,15%
+265,Amphetamine addiction,.,248,130,high,4,3.60241,120,133,52%,26%,15%,7%,15%
+108,Protein export,.,247,206,high,3.66667,10.7733,121,107,83%,8%,7%,1%,5%
+186,JAK-STAT signaling pathway,.,243,163,high,4,7.90535,122,116,67%,20%,8%,5%,15%
+287,Hepatitis B,.,149,57,high,4,2.7947,123,172,38%,35%,13%,13%,24%
+65,Pyruvate metabolism,.,226,173,high,4.33333,7.80349,124,114,76%,18%,5%,1%,59%
+61,Sphingolipid metabolism,.,224,176,high,2.5,8.78571,125,112,79%,13%,5%,4%,50%
+193,B cell receptor signaling pathway,.,220,151,high,4,9.18468,126,121,68%,16%,11%,4%,22%
+264,Cocaine addiction,.,221,120,high,4.33333,2.86486,126,138,54%,23%,10%,13%,46%
+130,Sphingolipid signaling pathway,.,220,174,high,2,8.81818,127,113,79%,13%,4%,4%,24%
+19,Caffeine metabolism,.,218,129,good,2.5,8.63761,128,134,59%,22%,19%,0%,15%
+2,Citrate cycle (TCA cycle),.,216,164,high,2,6.80184,129,115,76%,17%,7%,0%,61%
+300,Chemical carcinogenesis,.,217,120,ok,5,3.36406,129,138,56%,29%,15%,0%,41%
+326,Systemic lupus erythematosus,.,213,63,high,4,2.51852,130,168,30%,48%,15%,7%,73%
+11,Synthesis and degradation of ketone bodies,.,216,152,good,4,7.09722,130,120,70%,21%,6%,2%,4%
+36,Selenocompound metabolism,.,208,155,good,3,8.34762,131,118,74%,18%,6%,1%,0%
+316,Non-small cell lung cancer,.,208,81,high,4,1.72381,131,158,39%,46%,11%,5%,7%
+117,ErbB signaling pathway,.,209,141,high,3,6.40476,131,126,67%,23%,10%,0%,37%
+286,Hepatitis C,.,174,67,high,4.5,2.83889,132,165,37%,37%,8%,18%,52%
+18,Purine metabolism,.,207,140,high,2.5,6.74641,132,127,67%,20%,12%,1%,35%
+242,Type I diabetes mellitus,.,209,98,high,2.66667,6.74641,132,148,47%,28%,22%,3%,100%
+231,Renin secretion,.,206,107,high,1,6.5534,133,143,52%,20%,28%,0%,10%
+93,EGFR tyrosine kinase inhibitor resistance,.,201,132,high,3.5,6.0297,134,132,66%,22%,11%,0%,0%
+174,Tight junction,.,199,94,high,4,6.01005,135,151,48%,20%,29%,3%,100%
+178,Platelet activation,.,198,133,high,4.5,10.697,136,131,67%,11%,17%,5%,100%
+315,Small cell lung cancer,.,191,74,high,3.5,1.75773,137,162,38%,45%,11%,5%,16%
+121,cGMP-PKG signaling pathway,.,190,137,high,3.5,8.1466,138,128,72%,14%,12%,2%,4%
+190,Th1 and Th2 cell differentiation,.,186,155,high,3,13.4677,139,118,83%,11%,4%,2%,1%
+70,Thiamine metabolism,.,180,90,good,2,4.53333,140,153,50%,37%,7%,6%,35%
+266,Morphine addiction,.,176,80,high,4.5,3.88636,141,159,45%,34%,15%,6%,10%
+24,Valine leucine and isoleucine degradation,.,153,108,ok,3.5,7.60131,142,142,71%,14%,10%,5%,0%
+25,Valine leucine and isoleucine biosynthesis,.,173,122,ok,2,7.54857,142,136,70%,15%,11%,5%,0%
+171,ECM-receptor interaction,.,169,116,high,2.5,6.89535,143,140,67%,16%,12%,5%,10%
+213,Taste transduction,.,172,87,high,2.5,5.47093,143,156,51%,34%,13%,2%,2%
+219,GnRH signaling pathway,.,169,132,high,1.5,8.23392,144,132,77%,14%,8%,1%,6%
+285,Tuberculosis,.,163,50,high,3,1.8869,145,175,30%,37%,11%,22%,100%
+28,Histidine metabolism,.,156,120,ok,4,8.7963,146,138,74%,16%,9%,1%,15%
+290,Influenza A,.,161,61,high,4,3.14198,146,170,38%,55%,6%,2%,100%
+187,Hematopoietic cell lineage,.,161,101,good,4.5,6.2795,147,146,64%,19%,11%,6%,13%
+205,Retrograde endocannabinoid signaling,.,160,104,high,3.33333,6.44375,148,145,65%,18%,16%,1%,2%
+128,FoxO signaling pathway,.,156,96,high,2.5,7.89744,149,149,62%,21%,17%,0%,37%
+76,Lipoic acid metabolism,.,151,121,high,3.5,8.19205,150,137,80%,13%,7%,1%,24%
+118,Ras signaling pathway,.,151,119,high,2.5,7.49669,150,139,79%,13%,8%,1%,47%
+282,Toxoplasmosis,.,145,21,high,4.5,1.58108,151,200,14%,20%,11%,56%,100%
+311,Melanoma,.,148,79,high,4.5,4.14189,151,160,54%,28%,16%,3%,100%
+80,Terpenoid backbone biosynthesis,.,146,101,good,3.5,6.36301,152,146,69%,21%,9%,1%,1%
+164,Axon guidance,.,144,114,high,3.5,6.80556,153,141,79%,12%,8%,2%,79%
+220,Ovarian steroidogenesis,.,138,96,high,2,7.44928,154,149,70%,21%,9%,0%,51%
+127,HIF-1 signaling pathway,.,137,79,high,4,7.62774,155,160,58%,13%,28%,1%,16%
+72,Vitamin B6 metabolism,.,135,58,good,4,6.75,156,171,43%,26%,30%,1%,37%
+5,Fructose and mannose metabolism,.,132,99,ok,3.33333,7.18519,157,147,74%,17%,7%,1%,1%
+89,Carbon metabolism,.,135,79,high,3,6.26667,157,160,59%,26%,14%,1%,100%
+332,Arrhythmogenic right ventricular cardiomyopathy (ARVC),.,92,23,high,4,2.41935,158,198,25%,42%,28%,5%,14%
+331,Hypertrophic cardiomyopathy (HCM),.,95,22,high,4,2.375,158,199,23%,45%,25%,7%,17%
+333,Dilated cardiomyopathy (DCM),.,110,34,high,4,2.64545,158,187,31%,40%,24%,6%,27%
+289,Human cytomegalovirus infection,.,133,54,high,3.5,4.74436,158,174,41%,17%,11%,31%,100%
+256,Vitamin digestion and absorption,.,128,44,high,3.66667,2.96154,159,178,34%,44%,14%,9%,4%
+40,Starch and sucrose metabolism,.,119,89,good,3,7.50781,160,154,70%,17%,13%,0%,1%
+41,N-Glycan biosynthesis,.,128,106,high,3.5,9.82812,160,144,83%,8%,5%,4%,92%
+223,Melanogenesis,.,125,54,good,3.5,5.11905,161,174,43%,12%,45%,0%,32%
+255,Bile secretion,.,121,62,good,1,3.66667,162,169,50%,32%,14%,4%,7%
+30,Phenylalanine metabolism,.,118,95,ok,4,6.93333,163,150,79%,13%,7%,1%,31%
+236,GnRH secretion,.,118,93,high,2.5,8.65254,164,152,79%,13%,8%,0%,20%
+22,Glycine serine and threonine metabolism,.,114,88,good,3.5,9.09565,165,155,77%,11%,10%,2%,0%
+159,Vascular smooth muscle contraction,.,110,55,good,4.5,8.1875,166,173,49%,4%,46%,0%,71%
+281,Malaria,.,111,61,high,3.5,1.66667,167,170,55%,39%,4%,3%,100%
+42,Other glycan degradation,.,108,89,good,3.5,8.83486,168,154,82%,9%,4%,5%,7%
+302,MicroRNAs in cancer,.,108,64,good,4,5.21296,169,167,59%,26%,13%,2%,100%
+38,D-Arginine and D-ornithine metabolism,.,104,75,good,3.5,8.00943,170,161,71%,13%,13%,3%,0%
+44,Various types of N-glycan biosynthesis,.,103,85,high,3,9.31731,171,157,83%,10%,6%,2%,9%
+102,RNA degradation,.,98,63,high,4,5.36364,172,168,64%,11%,22%,3%,100%
+34,Taurine and hypotaurine metabolism,.,99,65,good,3.5,7.24242,172,166,66%,20%,14%,0%,33%
+92,Biosynthesis of amino acids,.,95,64,good,2,5.2551,173,167,65%,19%,13%,2%,100%
+224,Prolactin signaling pathway,.,96,68,high,4.5,4.54167,174,164,71%,17%,13%,0%,6%
+83,Aminoacyl-tRNA biosynthesis,.,88,50,good,3.5,5.1978,175,175,55%,33%,10%,2%,2%
+105,DNA replication,.,87,63,high,4.33333,6.43678,176,168,72%,17%,7%,3%,100%
+324,Autoimmune thyroid disease,.,87,35,high,1.5,4.5977,176,186,40%,41%,17%,1%,15%
+64,Glycosphingolipid biosynthesis,Treated_as_a_duplicate,84,61,high,4,7.88235,177,170,72%,14%,7%,7%,29%
+325,Inflammatory bowel disease (IBD),.,84,30,high,4,1.83529,177,191,35%,47%,18%,0%,94%
+227,Adipocytokine signaling pathway,.,85,62,high,3,9.21176,177,169,73%,11%,14%,2%,6%
+62,Glycosphingolipid biosynthesis,.,85,61,high,3,7.88235,177,170,72%,14%,7%,7%,29%
+63,Glycosphingolipid biosynthesis,Treated_as_a_duplicate,85,61,high,2,7.88235,177,170,72%,14%,7%,7%,29%
+140,Mitophagy,.,85,41,high,2,6.63529,177,181,48%,14%,38%,0%,100%
+306,Endometrial cancer,.,81,35,high,4,2.53659,178,186,43%,38%,18%,1%,100%
+188,Natural killer cell mediated cytotoxicity,.,75,44,high,3.5,3.9375,179,178,55%,30%,10%,6%,23%
+275,Pertussis,.,79,69,high,3.5,9.775,179,163,86%,6%,4%,4%,100%
+292,Human T-cell leukemia virus 1 infection,.,80,18,high,4,2.7,179,202,23%,34%,8%,37%,4%
+318,Hepatocellular carcinoma,.,76,34,high,4,1.89744,180,187,44%,42%,12%,2%,100%
+13,Primary bile acid biosynthesis,.,76,36,high,1,5.03896,181,185,47%,32%,13%,8%,47%
+197,Leukocyte transendothelial migration,.,77,33,high,3.5,4.5974,181,188,44%,23%,21%,12%,3%
+175,Gap junction,.,76,49,high,2.5,6.73684,182,176,64%,17%,13%,5%,100%
+271,Epithelial cell signaling in Helicobacter pylori infection,.,75,41,high,4,5.54667,183,181,55%,29%,15%,1%,0%
+78,Retinol metabolism,.,74,61,high,3,7.55405,184,170,82%,11%,5%,1%,22%
+228,Oxytocin signaling pathway,.,74,58,high,4.33333,3.85135,184,171,78%,7%,15%,0%,9%
+101,mRNA surveillance pathway,.,71,48,high,2,4.9726,185,177,66%,12%,22%,0%,100%
+59,Linoleic acid metabolism,.,72,49,high,2.5,5.19178,185,176,67%,23%,10%,0%,29%
+55,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,.,68,55,high,1.5,7.6087,186,173,80%,16%,3%,1%,9%
+235,Parathyroid hormone synthesis secretion and action,.,67,17,high,3.5,2.61765,187,203,25%,51%,13%,10%,0%
+167,Osteoclast differentiation,.,66,29,good,3.5,3.22388,188,192,43%,40%,12%,4%,33%
+284,Staphylococcus aureus infection,.,62,20,high,2.5,1.34848,189,201,30%,67%,3%,0%,92%
+198,Intestinal immune network for IgA production,.,64,43,high,3,6.10606,189,179,65%,21%,9%,5%,3%
+60,alpha-Linolenic acid metabolism,.,62,35,high,4,6.51562,190,186,55%,31%,14%,0%,15%
+319,Gastric cancer,.,62,31,high,4,2.57812,190,190,48%,36%,14%,2%,100%
+320,Central carbon metabolism in cancer,.,64,40,good,4,7.04688,190,182,63%,28%,9%,0%,14%
+295,Epstein-Barr virus infection,.,58,32,high,4,5.92063,191,189,51%,22%,14%,13%,100%
+45,Other types of O-glycan biosynthesis,.,61,61,high,4,11.9516,192,170,98%,0%,2%,0%,16%
+110,Base excision repair,.,61,42,high,1.5,8.33871,192,180,68%,16%,16%,0%,100%
+43,Mucin type O-glycan biosynthesis,.,62,61,high,3,11.9516,192,170,98%,0%,2%,0%,2%
+46,Mannose type O-glycan biosynthesis,.,62,61,high,3.5,11.9516,192,170,98%,0%,2%,0%,0%
+232,Aldosterone synthesis and secretion,.,55,25,high,3.5,3.67273,193,196,45%,27%,27%,0%,2%
+244,Aldosterone-regulated sodium reabsorption,.,57,25,high,3.5,3.47368,193,196,44%,26%,28%,2%,0%
+4,Pentose and glucuronate interconversions,.,51,50,good,4.33333,6.27586,194,175,86%,7%,7%,0%,2%
+85,Drug metabolism,.,57,38,ok,4,5.56897,194,184,66%,24%,7%,3%,100%
+86,Drug metabolism,Treated_as_a_duplicate,57,38,ok,4,5.56897,194,184,66%,24%,7%,3%,100%
+138,SNARE interactions in vesicular transport,.,57,38,high,2,6.24561,195,184,67%,11%,23%,0%,2%
+189,IL-17 signaling pathway,.,57,34,high,1,9.38596,195,187,61%,25%,9%,5%,12%
+249,Salivary secretion,.,52,29,high,1.5,3.88889,196,192,54%,30%,15%,2%,100%
+82,Sulfur metabolism,.,53,23,ok,4,4.62963,196,198,43%,39%,19%,0%,100%
+239,Non-alcoholic fatty liver disease (NAFLD),.,54,22,high,4,3.46296,196,199,41%,31%,26%,2%,54%
+137,Sulfur relay system,.,50,44,high,5,9.45098,197,178,86%,8%,6%,0%,0%
+270,Vibrio cholerae infection,.,51,42,high,3.5,11.6275,197,180,82%,10%,8%,0%,100%
+20,Pyrimidine metabolism,.,45,36,good,3,6.83673,198,185,73%,18%,6%,2%,24%
+56,Glycerophospholipid metabolism,.,49,40,high,2.66667,7.30612,198,182,82%,14%,2%,2%,53%
+305,Pancreatic cancer,.,49,26,high,4.33333,2.83673,198,195,53%,33%,14%,0%,100%
+103,RNA polymerase,.,47,39,high,2.5,6.77083,199,183,81%,8%,8%,2%,100%
+157,Cardiac muscle contraction,.,48,17,good,2,3.60417,199,203,35%,27%,35%,2%,67%
+328,Allograft rejection,.,45,16,high,4,4.38298,200,204,35%,39%,20%,6%,100%
+100,RNA transport,.,46,26,high,3,5.82979,200,195,55%,2%,38%,4%,100%
+288,Measles,.,39,14,high,3.66667,2,201,206,32%,52%,7%,10%,100%
+79,Porphyrin and chlorophyll metabolism,.,41,28,good,3,6.02326,202,193,65%,14%,16%,5%,0%
+253,Protein digestion and absorption,.,33,20,good,4,4.52381,203,201,48%,31%,19%,2%,0%
+201,Thermogenesis,.,41,22,high,3.33333,4.09524,203,199,52%,31%,17%,0%,100%
+162,Hedgehog signaling pathway,.,35,26,high,3,4.81579,204,195,68%,8%,24%,0%,71%
+134,Oocyte meiosis,.,32,25,good,3,5.55556,205,196,69%,19%,11%,0%,13%
+113,Homologous recombination,.,30,24,high,4,7.94286,206,197,69%,20%,6%,6%,100%
+241,Cushing syndrome,.,32,23,high,4,6.77143,206,198,66%,26%,6%,3%,84%
+182,NOD-like receptor signaling pathway,.,34,24,high,3,4.82857,206,197,69%,23%,6%,3%,18%
+3,Pentose phosphate pathway,.,33,29,high,2.125,5.94118,207,192,85%,6%,9%,0%,97%
+274,Salmonella infection,.,27,25,low,4,5.21212,208,196,76%,15%,6%,3%,100%
+57,Ether lipid metabolism,.,33,23,high,3,6.21212,208,198,70%,15%,15%,0%,52%
+195,Fc gamma R-mediated phagocytosis,.,25,27,high,2.63636,14.3871,209,194,87%,10%,3%,0%,16%
+229,Glucagon signaling pathway,.,30,26,good,4.5,4.96774,209,195,84%,13%,3%,0%,20%
+321,Choline metabolism in cancer,.,31,24,high,3.66667,7.48387,209,197,77%,16%,6%,0%,6%
+312,Bladder cancer,.,24,14,high,4,1.43333,210,206,47%,33%,13%,7%,100%
+71,Riboflavin metabolism,.,25,15,good,4,5.96667,210,205,50%,23%,23%,3%,32%
+67,Propanoate metabolism,.,23,20,high,4,5.58621,211,201,69%,14%,17%,0%,26%
+330,Primary immunodeficiency,.,24,18,high,3.5,4.10714,212,202,67%,30%,4%,0%,13%
+68,Butanoate metabolism,.,28,20,high,4,8.03571,212,201,71%,18%,11%,0%,21%
+191,Th17 cell differentiation,.,28,16,high,4.5,9.71429,212,204,57%,29%,11%,4%,11%
+299,Viral carcinogenesis,.,21,16,good,4,3.84615,213,204,64%,12%,8%,16%,100%
+304,Renal cell carcinoma,.,24,13,high,3,5.96,214,207,52%,40%,8%,0%,100%
+173,Adherens junction,.,25,14,high,3.5,2.8,214,206,56%,20%,24%,0%,100%
+246,Vasopressin-regulated water reabsorption,.,25,14,good,3.5,6.36,214,206,56%,28%,12%,4%,8%
+75,Biotin metabolism,.,6,5,ok,4,5.16667,215,214,83%,0%,0%,17%,16%
+90,2-Oxocarboxylic acid metabolism,.,19,11,good,3.5,3.3913,216,209,48%,43%,9%,0%,0%
+279,Chagas disease (American trypanosomiasis),.,23,9,high,4,1.17391,216,211,41%,41%,18%,0%,52%
+111,Nucleotide excision repair,.,21,13,good,1.8,6.59091,217,207,59%,23%,18%,0%,100%
+48,Neomycin kanamycin and gentamicin biosynthesis,.,15,13,high,4.33333,3.47619,218,207,62%,14%,10%,15%,0%
+278,Leishmaniasis,.,20,15,high,3.5,2.19048,218,205,71%,24%,0%,5%,100%
+254,Fat digestion and absorption,.,20,11,good,4,4.75,219,209,55%,40%,5%,0%,0%
+334,Viral myocarditis,.,11,3,high,4,0.818182,220,216,27%,36%,36%,0%,45%
+252,Carbohydrate digestion and absorption,.,12,11,good,3,4.64706,220,209,65%,24%,12%,0%,17%
+35,Phosphonate and phosphinate metabolism,.,13,12,good,4.5,7,220,208,92%,8%,0%,0%,0%
+155,Necroptosis,.,15,9,high,3.35714,4.70588,220,211,53%,12%,29%,6%,100%
+329,Graft-versus-host disease,.,15,4,good,4,1.52941,220,215,24%,29%,35%,12%,100%
+114,Non-homologous end-joining,.,9,7,high,2.14286,7.45455,221,212,78%,0%,11%,11%,100%
+309,Thyroid cancer,.,15,9,high,4,5.0625,221,211,56%,44%,0%,0%,100%
+301,Proteoglycans in cancer,.,16,14,ok,4.25,5.6875,221,206,88%,13%,0%,0%,100%
+257,Mineral absorption,.,11,6,low,2.66667,3.33333,222,213,55%,36%,0%,9%,100%
+132,Neuroactive ligand-receptor interaction,.,13,11,high,1.66667,5.06667,222,209,73%,7%,20%,0%,100%
+119,Rap1 signaling pathway,.,14,12,high,2,5.73333,222,208,80%,7%,13%,0%,50%
+250,Gastric acid secretion,.,14,5,high,3.5,1.93333,222,214,33%,47%,20%,0%,50%
+185,C-type lectin receptor signaling pathway,.,11,10,high,3.14286,8.78571,223,210,71%,7%,21%,0%,0%
+230,Regulation of lipolysis in adipocytes,.,11,10,high,3,7.21429,223,210,71%,7%,21%,0%,36%
+154,Ferroptosis,.,11,7,high,2.2,7.45455,224,212,64%,18%,18%,0%,100%
+280,African trypanosomiasis,.,12,5,high,4,1,224,214,42%,42%,17%,0%,33%
+291,Human papillomavirus infection,.,3,3,high,2.33333,10,225,216,100%,0%,0%,0%,100%
+293,Kaposi sarcoma-associated herpesvirus infection,.,6,0,high,4,0.666667,225,219,0%,33%,0%,66%,33%
+53,Glycerolipid metabolism,.,11,7,high,4.5,3.45455,226,212,64%,27%,9%,0%,36%
+66,Glyoxylate and dicarboxylate metabolism,.,4,3,good,3,6,227,216,75%,25%,0%,0%,25%
+183,RIG-I-like receptor signaling pathway,.,5,2,high,3.2,5.8,228,217,40%,20%,20%,20%,40%
+215,Inflammatory mediator regulation of TRP channels,.,7,5,high,2.42857,8.42857,229,214,71%,0%,29%,0%,14%
+310,Basal cell carcinoma,.,8,4,high,2.5,6.125,229,215,50%,38%,13%,0%,100%
+269,Bacterial invasion of epithelial cells,.,6,5,high,3.5,6.83333,230,214,83%,0%,17%,0%,100%
+112,Mismatch repair,.,6,3,high,4,4.5,230,216,50%,17%,17%,17%,100%
+94,Endocrine resistance,.,1,1,good,4,4,231,218,100%,0%,0%,0%,100%
+273,Shigellosis,.,4,3,high,3,9.75,231,216,75%,25%,0%,0%,100%
+322,PD-L1 expression and PD-1 checkpoint pathway in cancer,.,5,1,high,3,7.2,231,218,20%,0%,80%,0%,60%
+184,Cytosolic DNA-sensing pathway,.,2,2,good,3,5,232,217,100%,0%,0%,0%,50%
+115,Fanconi anemia pathway,.,5,2,high,3.75,1.6,232,217,40%,0%,60%,0%,100%
+96,Platinum drug resistance,.,1,1,high,3,1.33333,233,218,0%,100%,0%,0%,100%
+276,Legionellosis,.,2,2,NA,4,1,234,217,100%,0%,0%,0%,100%
+221,Progesterone-mediated oocyte maturation,.,3,3,high,3,9.66667,234,216,100%,0%,0%,0%,100%
+168,Hippo signaling pathway,.,3,2,high,3.33333,7,234,217,67%,33%,0%,0%,67%
+169,Hippo signaling pathway,Treated_as_a_duplicate,3,2,high,3.33333,7,234,217,67%,33%,0%,0%,67%
+47,Amino sugar and nucleotide sugar metabolism,No_association,0,0,high,NA,0,235,217,0%,0%,0%,0%,0%
+166,Apelin signaling pathway,.,2,2,high,2,12,235,217,100%,0%,0%,0%,50%
+214,Phototransduction,.,2,2,high,4,4,235,217,100%,0%,0%,0%,100%
+233,Relaxin signaling pathway,.,2,2,high,3,8.5,235,217,100%,0%,0%,0%,0%
+194,Fc epsilon RI signaling pathway,.,2,1,high,3,11.5,235,218,50%,0%,50%,0%,0%
+245,Endocrine and other factor-regulated calcium reabsorption,.,2,0,high,4,0.5,235,219,0%,0%,50%,50%,0%
+248,Collecting duct acid secretion,No_association,0,0,ok,NA,0,236,218,0%,0%,0%,0%,0%
+95,Antifolate resistance,Dodgy,1,1,good,5,1,236,218,100%,0%,0%,0%,100%
+243,Maturity onset diabetes of the young,Dodgy,1,1,high,5,2,236,218,100%,0%,0%,0%,100%
+247,Proximal tubule bicarbonate reclamation,No_association,0,0,NA,NA,0,237,219,0%,0%,0%,0%,0%
+277,Yersinia infection,No_association,0,0,NA,NA,0,237,219,0%,0%,0%,0%,0%
+283,Amoebiasis,No_association,0,0,NA,NA,0,237,219,0%,0%,0%,0%,0%
