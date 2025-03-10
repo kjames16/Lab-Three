@@ -10,7 +10,7 @@ public class Pathway {
     private String notes;
     private String total_number_papers;
     private String ad_specifc_paper_count;
-    private String Pathway_score;
+    private String pathway_score;
     private String ad_pathway_score;
     private String ad_word_score;
     private String literature_rank;
@@ -31,7 +31,7 @@ public class Pathway {
         this.notes = notes;
         this.total_number_papers = total_number_papers;
         this.ad_specifc_paper_count = ad_specifc_paper_count;
-        this.Pathway_score = Pathway_score;
+        this.pathway_score = Pathway_score;
         this.ad_pathway_score = ad_pathway_score;
         this.ad_word_score = ad_word_score;
         this.literature_rank = literature_rank;
@@ -66,7 +66,7 @@ public class Pathway {
     }
 
     public String getPathway_score() {
-        return Pathway_score;
+        return pathway_score;
     }
 
     public String getAd_pathway_score() {
@@ -103,5 +103,11 @@ public class Pathway {
 
     public String getPc_papers_using_full_pathway_name() {
         return pc_papers_using_full_pathway_name;
+    }
+
+    // Method to put all of the attributes into one array
+    public String[] getAttributes() {
+        String[] attributes = { index, path, notes, total_number_papers, ad_specifc_paper_count, pathway_score, ad_pathway_score, ad_word_score, literature_rank, ad_specific_paper_rank, pc_papers_ad, pc_dementia, pc_related_dementia, pc_unrelated_dementia, pc_papers_using_full_pathway_name};
+        return attributes;
     }
 }

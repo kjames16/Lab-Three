@@ -23,6 +23,7 @@ public class FileReader {
 
         int index = 0;  // index for the iterations
 
+        // Creates each pathway for the array of pathways
         for(String line : lines) {
             List<String> words = List.of(lines.get(index).split(","));
             Pathway p = new Pathway(words.get(0), words.get(1), words.get(2), words.get(3), words.get(4), words.get(5), words.get(6), words.get(7),
