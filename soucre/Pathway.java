@@ -43,67 +43,6 @@ public class Pathway {
         this.pc_papers_using_full_pathway_name = pc_papers_using_full_pathway_name;
     }
 
-    // Getters
-
-    public String getIndex() {
-        return index;
-    }
-
-    public String getPath() {
-        return path;
-    }
-
-    public String getNotes() {
-        return notes;
-    }
-
-    public String getTotal_number_papers() {
-        return total_number_papers;
-    }
-
-    public String getAd_specifc_paper_count() {
-        return ad_specifc_paper_count;
-    }
-
-    public String getPathway_score() {
-        return pathway_score;
-    }
-
-    public String getAd_pathway_score() {
-        return ad_pathway_score;
-    }
-
-    public String getAd_word_score() {
-        return ad_word_score;
-    }
-
-    public String getLiterature_rank() {
-        return literature_rank;
-    }
-
-    public String getAd_specific_paper_rank() {
-        return ad_specific_paper_rank;
-    }
-
-    public String getPc_papers_ad() {
-        return pc_papers_ad;
-    }
-
-    public String getPc_dementia() {
-        return pc_dementia;
-    }
-
-    public String getPc_related_dementia() {
-        return pc_related_dementia;
-    }
-
-    public String getPc_unrelated_dementia() {
-        return pc_unrelated_dementia;
-    }
-
-    public String getPc_papers_using_full_pathway_name() {
-        return pc_papers_using_full_pathway_name;
-    }
 
     // Method to put all of the attributes into one array
     public String[] getAttributes() {
