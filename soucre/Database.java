@@ -7,6 +7,7 @@ import java.util.ArrayList;
 
 public class Database {
 
+
     public static void main(String[] args) throws IOException {
 
         //Create the JFrame
@@ -20,22 +21,18 @@ public class Database {
         // Create an Array of pathways from the file
         ArrayList<Pathway> pathways = FileReader.readFile();
 
-        // Create the table
+        //Make the Table
         Table table = new Table(pathways);
-        table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);// Tried this so the data can be more visible
-        table.setGridColor(Color.black);
-
 
         // Create a scrollPane so all of the data can be viewed
-        JScrollPane scrollPane = new JScrollPane(table);
-        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-        scrollPane.setBackground(Color.RED);
-        scrollPane.setPreferredSize(new Dimension(500, 500));
+        ScrollPane scrollPane = new ScrollPane(pathways);
+
         frame.add(scrollPane, BorderLayout.WEST);
 
 
+
         // Add the filter panel
-        FilterPanel filterPanel = new FilterPanel();
+        FilterPanel filterPanel = new FilterPanel(pathways,scrollPane);
         frame.add(filterPanel, BorderLayout.NORTH);
 
         // Add the stat panel
@@ -50,4 +47,7 @@ public class Database {
 
 
     }
+
+
+
 }

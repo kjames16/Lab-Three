@@ -43,6 +43,19 @@ public class Pathway {
         this.pc_papers_using_full_pathway_name = pc_papers_using_full_pathway_name;
     }
 
+    // Getters for sorting
+    public String getPathwayScore() {
+        return pathway_score;
+    }
+
+    public int getIndex() {
+        return Integer.parseInt(index);
+    }
+
+    public int getTotalNumberPapers() {
+        return Integer.parseInt(total_number_papers);
+    }
+
 
     // Method to put all of the attributes into one array
     public String[] getAttributes() {
