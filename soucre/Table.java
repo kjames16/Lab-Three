@@ -31,13 +31,13 @@ public class Table extends JTable  {
         this.setModel(model);
         this.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);// Tried this so the data can be more visible
         this.setGridColor(Color.black);
-
-
+        this.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        this.setRowSelectionAllowed(true);
 
 
     }
 
-    public void update() {
 
-    }
+
+
 }

@@ -9,8 +9,10 @@ public class ScrollPane extends JScrollPane {
     private ArrayList<Pathway> pathways;
 
     public ScrollPane(ArrayList<Pathway> pathways) {
-        super(new Table(pathways));
+        //super(new Table(pathways));
         this.pathways = pathways;
+        table = new Table(pathways);
+        this.setViewportView(table);
 
 
 
@@ -18,5 +20,9 @@ public class ScrollPane extends JScrollPane {
         this.setBackground(Color.RED);
         this.setPreferredSize(new Dimension(500, 500));
 
+    }
+
+    public Table getTable() {
+        return table;
     }
 }

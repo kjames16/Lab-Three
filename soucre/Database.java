@@ -21,6 +21,7 @@ public class Database {
         // Create an Array of pathways from the file
         ArrayList<Pathway> pathways = FileReader.readFile();
 
+
         //Make the Table
         Table table = new Table(pathways);
 
@@ -30,18 +31,18 @@ public class Database {
         frame.add(scrollPane, BorderLayout.WEST);
 
 
-
         // Add the filter panel
         FilterPanel filterPanel = new FilterPanel(pathways,scrollPane);
         frame.add(filterPanel, BorderLayout.NORTH);
 
         // Add the stat panel
-        StatsPanel statsPanel = new StatsPanel(pathways);
-        frame.add(statsPanel, BorderLayout.EAST);
+        DetailPanel detailPanel = new DetailPanel(pathways,scrollPane);
+        frame.add(detailPanel, BorderLayout.EAST);
 
         // Add the chart panel
         ChartPanel chartPanel = new ChartPanel(pathways);
         frame.add(chartPanel, BorderLayout.CENTER);
+
 
         frame.setVisible(true);
 
