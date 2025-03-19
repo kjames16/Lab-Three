@@ -32,14 +32,18 @@ public class StatsPanel extends JPanel {
         double sumTotalPapers = 0;
         //Second stat
         double avgPathwayScore;
-        double sumPathwayScore = 0;
+        double sumPathwayScore = 0.0;
         //Third stat
         int maxTotalPapers = 0;
         for (Pathway p : paths) {
             //Sum up the total number of papers
             sumTotalPapers += p.getTotalNumberPapers();
             // Sum up all of the pathway scores
-            //sumPathwayScore += p.getAdPathwayScore();
+            try {
+                sumPathwayScore += p.getAdPathwayScore();
+            } catch (NumberFormatException e) {
+                sumPathwayScore += 0;
+            }
 
             // Find the biggest number for total number of papers
             if(p.getTotalNumberPapers() > maxTotalPapers) {
@@ -57,7 +61,8 @@ public class StatsPanel extends JPanel {
         g.drawString("Average Total Papers: " + roundedTotalPapers, 20, 40);
         g.drawString("Average Pathway Score: " + roundedPathwayScore, 20, 60);
         g.drawString("Max Total Papers: " + maxTotalPapers, 20, 80);
-        g.drawString("Click the Filter twice for stats to appear. (I can't figure out how to fix this)", 20, 120);
+        g.drawString("Click the Filter twice for stats to appear.", 20, 120);
+        g.drawString("(I can't figure out how to fix this)", 20, 130);
     }
 
     public void update(List<Pathway> paths) {
