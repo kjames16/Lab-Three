@@ -2,28 +2,31 @@ package soucre;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
+import java.util.List;
 
 public class DetailPanel extends JPanel {
 
-    private ArrayList<Pathway> paths;
+    private List<Pathway> paths;
     private Pathway selected;
 
-    DetailPanel(ArrayList<Pathway> paths, ScrollPane scrollPane) {
+    DetailPanel(List<Pathway> paths, ScrollPane scrollPane, FilterPanel filterPanel) {
         this.paths = paths;
+
 
         // Set up the panel
         this.setPreferredSize(new Dimension(200,100));
-        this.setBackground(Color.BLUE);
+        this.setBorder(BorderFactory.createLineBorder(Color.black));
+
 
         scrollPane.getTable().getSelectionModel().addListSelectionListener(e -> {
 
+            this.paths = filterPanel.getNewPathwayList();
             revalidate();
             repaint();
             if (!e.getValueIsAdjusting()) {
                 int row = scrollPane.getTable().getSelectedRow();
                 if (row != -1) {
-                    selected = paths.get(row);
+                    selected = this.paths.get(row);
                 }
             }
         });

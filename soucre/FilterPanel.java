@@ -3,25 +3,26 @@ package soucre;
 import javax.swing.*;
 import javax.swing.table.TableModel;
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Map;
+import java.util.*;
+import java.util.List;
 import java.util.stream.Collectors;
 
 
 public class FilterPanel extends JPanel {
     // Create the drop boxes
     String[] filter = {"All","High", "Good", "Ok"};
-    String[] sort = {"Pathway_Score", "Index", "Total_number_papers"};
+    String[] sort = {"Alphabetical", "Index", "Total_number_papers"};
     private JComboBox filterBox = new JComboBox(filter);
     private JComboBox sortBox = new JComboBox(sort);
-    private ArrayList<Pathway> newPathwayList;
+    private List<Pathway> newPathwayList;
+    private StatsPanel statsPanel;
 
     public FilterPanel(ArrayList<Pathway> paths, ScrollPane scrollPane) {
 
         this.setPreferredSize(new Dimension(200,100));
         this.setBackground(Color.RED);
-
+        this.statsPanel = statsPanel;
+        newPathwayList = paths;
 
         // Add Dropboxes
         this.add(filterBox);
@@ -35,75 +36,86 @@ public class FilterPanel extends JPanel {
                 update(scrollPane);
             }
             if (filterBox.getSelectedIndex() == 1) {
-
-                newPathwayList = paths.stream()
-                        .filter(Pathway -> Pathway.getPathwayScore() == "high")
-                        .collect(Collectors.toCollection(ArrayList::new));
-
-
+                        // Alter the list using streams
+                        newPathwayList = paths.stream()
+                        .filter(Pathway -> Pathway.getPathwayScore().equals("high"))
+                        .toList();
+                // Update the scrollPane
                 update(scrollPane);
 
             }
             if (filterBox.getSelectedIndex() == 2) {
-
+                // Alter the list using streams
                 newPathwayList = paths.stream()
-                        .filter(Pathway -> Pathway.getPathwayScore() == "Ggood")
-                        .collect(Collectors.toCollection(ArrayList::new));
+                        .filter(Pathway -> Pathway.getPathwayScore().equals("good"))
+                        .toList();
+                // Update the scrollPane
                 update(scrollPane);
             }
             if (filterBox.getSelectedIndex() == 3) {
-
+                // Alter the list using streams
                 newPathwayList = paths.stream()
-                        .filter(Pathway -> Pathway.getPathwayScore() == "ok")
-                        .collect(Collectors.toCollection(ArrayList::new));
+                        .filter(Pathway -> Pathway.getPathwayScore().equals("ok"))
+                        .toList();
+                // Update the scrollPane
                 update(scrollPane);
             }
+
+
         });
 
         // Add action listener for sort
         sortBox.addActionListener(e ->{
             if (sortBox.getSelectedIndex() == 0) {
-                // Custom order for scores
-               Map<String, Integer> scoreOrder = Map.of(
-                       "high", 1,
-                       "good", 2,
-                       "ok", 3
-               );
-                // Compare based off of the scoreOrder
-                newPathwayList.stream()
-                        .sorted(Comparator.comparing(Pathway -> scoreOrder.get(Pathway.getPathwayScore())))
+
+                // Compare based off of the alphabetical order
+                newPathwayList = newPathwayList.stream()
+                        .sorted(Comparator.comparing(Pathway::getPath))
                         .toList();
                 update(scrollPane);
 
             };
             if (sortBox.getSelectedIndex() == 1) {
-                newPathwayList.stream()
+                // Compare based off of the index order
+                newPathwayList = newPathwayList.stream()
                         .sorted(Comparator.comparing(Pathway::getIndex))
                         .toList();
                 update(scrollPane);
             }
             if (sortBox.getSelectedIndex() == 2) {
-                newPathwayList.stream()
-                        .sorted(Comparator.comparing(Pathway::getTotalNumberPapers))
+                //Compare base off of the number of total papers
+                newPathwayList = newPathwayList.stream()
+                        .sorted(Comparator.comparing(Pathway::getTotalNumberPapers).reversed())
                         .toList();
                 update(scrollPane);
             }
         });
     }
 
-    public ArrayList<Pathway> getNewPathwayList() {
+    // Getter for the new list
+    public List<Pathway> getNewPathwayList() {
         return newPathwayList;
+    }
+
+    // Getter for the filterbox
+    public JComboBox getFilterBox() {
+        return filterBox;
     }
 
     // update the scroll panes
     public void update(ScrollPane scrollPane) {
 
-        scrollPane.removeAll();
+       scrollPane.getTable().getModel().setRowCount(0);
         scrollPane.revalidate();
         scrollPane.repaint();
 
-        //scrollPane.setViewportView(new Table(newPathwayList));
-        scrollPane = new ScrollPane(newPathwayList);
+        for(Pathway pathway : newPathwayList) {
+            String[] row = pathway.getAttributes();
+            scrollPane.getTable().getModel().addRow(row);
+        }
+
+        scrollPane.getTable().setModel(scrollPane.getTable().getModel());
+        scrollPane.setViewportView(scrollPane.getTable());
 
         scrollPane.revalidate();
         scrollPane.repaint();
@@ -114,5 +126,8 @@ public class FilterPanel extends JPanel {
 
 
     }
+
+
+
 
 }

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Table extends JTable  {
 
     private ArrayList<Pathway> paths;
+    private DefaultTableModel model;
 
     public Table(ArrayList<Pathway> paths) {
 
@@ -20,6 +21,7 @@ public class Table extends JTable  {
 
         // Create a default model(so i could add rows)
         DefaultTableModel model = new DefaultTableModel(columnNames, 0);
+        this.model = model;
 
         // Create all of the rows
         for (Pathway p : paths) {
@@ -37,7 +39,9 @@ public class Table extends JTable  {
 
     }
 
-
+    public DefaultTableModel getModel() {
+        return model;
+    }
 
 
 }

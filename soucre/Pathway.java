@@ -56,10 +56,20 @@ public class Pathway {
         return Integer.parseInt(total_number_papers);
     }
 
+    public double getAdPathwayScore() {
+        return Double.parseDouble(ad_pathway_score);
+    }
+
+    public String getPath() {
+        return path;
+    }
+
 
     // Method to put all of the attributes into one array
     public String[] getAttributes() {
         String[] attributes = { index, path, notes, total_number_papers, ad_specifc_paper_count, pathway_score, ad_pathway_score, ad_word_score, literature_rank, ad_specific_paper_rank, pc_papers_ad, pc_dementia, pc_related_dementia, pc_unrelated_dementia, pc_papers_using_full_pathway_name};
         return attributes;
     }
+
+
 }

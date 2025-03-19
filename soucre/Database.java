@@ -35,13 +35,12 @@ public class Database {
         FilterPanel filterPanel = new FilterPanel(pathways,scrollPane);
         frame.add(filterPanel, BorderLayout.NORTH);
 
-        // Add the stat panel
-        DetailPanel detailPanel = new DetailPanel(pathways,scrollPane);
+        // Add the detail panel
+        DetailPanel detailPanel = new DetailPanel(filterPanel.getNewPathwayList(),scrollPane,filterPanel);
         frame.add(detailPanel, BorderLayout.EAST);
 
-        // Add the chart panel
-        ChartPanel chartPanel = new ChartPanel(pathways);
-        frame.add(chartPanel, BorderLayout.CENTER);
+        StatsPanel statPanel = new StatsPanel(filterPanel.getNewPathwayList(),filterPanel);
+        frame.add(statPanel, BorderLayout.CENTER);
 
 
         frame.setVisible(true);
