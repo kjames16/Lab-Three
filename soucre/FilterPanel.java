@@ -127,7 +127,12 @@ public class FilterPanel extends JPanel {
 
     }
 
-
+    //Add labels under the dropboxes
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        g.drawString("Filter", 380, 50);
+        g.drawString("Sort", 500, 50);
+    }
 
 
 }
